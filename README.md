@@ -1,5 +1,6 @@
 # solarpc
 potree visualization of a pointcloud of solar panels in Corvallis, OR
+* NOTE: you must disable protection in the address bar and load scripts. In chrome, click the shield and allow it to load insecture content. In firefox, click the lock at the beginning of the address bar and disable protection..  This is due to "mixed content" from the HTTP engineering server.  Unfortunately, they can not currently upgrade it to HTTPS. 
 
 ## Repository Folder Structure
 ```
