@@ -63,7 +63,7 @@
 			viewer.toggleSidebar();
 		});
 		
-		Potree.loadPointCloud("http://research.engr.oregonstate.edu/lidar/pointcloud/solarpanels/pointclouds/index/cloud.js", "solarpanels", e => {
+		Potree.loadPointCloud("pointclouds/cloud.js", "solarpanels", e => {
 			let pointcloud = e.pointcloud;
 			let material = pointcloud.material;
 			viewer.scene.addPointCloud(pointcloud);
